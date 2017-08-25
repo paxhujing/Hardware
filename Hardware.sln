@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hardware.Usb", "Hardware.Usb\Hardware.Usb.csproj", "{2439123B-F887-42D7-BF88-EC94E8717A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usb", "Usb\Usb.csproj", "{AC51F47A-4779-4758-B216-8287D8F58EA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2439123B-F887-42D7-BF88-EC94E8717A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2439123B-F887-42D7-BF88-EC94E8717A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2439123B-F887-42D7-BF88-EC94E8717A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2439123B-F887-42D7-BF88-EC94E8717A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC51F47A-4779-4758-B216-8287D8F58EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC51F47A-4779-4758-B216-8287D8F58EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC51F47A-4779-4758-B216-8287D8F58EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC51F47A-4779-4758-B216-8287D8F58EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DD0BEA7-8CBB-4876-BBF1-47C3E0ACBAFD}
+	EndGlobalSection
+EndGlobal
