@@ -66,7 +66,7 @@ namespace Usb.Datas
         /// <summary>
         /// 所需最大电流。
         /// </summary>
-        public Byte HuControlCurrent { get; internal set; }
+        public Byte HubControlCurrent { get; internal set; }
 
         /// <summary>
         /// 接口数。

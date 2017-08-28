@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Usb.Primitives;
 using System.Runtime.InteropServices;
 using System.Security;
+using Usb.Commands;
 
 namespace Usb.Primitives
 {
@@ -68,7 +69,7 @@ namespace Usb.Primitives
             Int32 dwIoControlCode, 
             IntPtr lpInBuffer, 
             Int32 nInBufferSize, 
-            ref UsbHcdDriverKeyName lpOutBuffer, 
+            ref UsbStringBuffer lpOutBuffer, 
             Int32 nOutBufferSize, 
             out Int32 nBytesReturned, 
             IntPtr lpOverlapped);
@@ -89,6 +90,16 @@ namespace Usb.Primitives
             ref UsbNodeConnectionInformationEx lpInBuffer,
             Int32 nInBufferSize,
             ref UsbNodeConnectionInformationEx lpOutBuffer,
+            Int32 nOutBufferSize,
+            out Int32 lpBytesReturned,
+            IntPtr lpOverlapped);
+
+        [DllImport("kernel32.dll", CharSet = CharSet.Ansi, SetLastError = true)]
+        internal static extern Boolean DeviceIoControl(IntPtr hDevice,
+            Int32 dwIoControlCode,
+            ref UsbDescriptorRequest lpInBuffer,
+            Int32 nInBufferSize,
+            ref UsbDescriptorRequest lpOutBuffer,
             Int32 nOutBufferSize,
             out Int32 lpBytesReturned,
             IntPtr lpOverlapped);

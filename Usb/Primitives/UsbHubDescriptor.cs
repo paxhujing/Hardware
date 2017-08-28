@@ -41,7 +41,7 @@ namespace Usb.Primitives
         /// <summary>
         /// 设备所需最大电流。
         /// </summary>
-        public Byte HumControlCurrent;
+        public Byte HubControlCurrent;
 
         /// <summary>
         /// 指示连接在集线器端口的设备是否可以移走。

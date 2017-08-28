@@ -74,9 +74,11 @@
     <Compile Include="Primitives\UsbPipeInfo.cs" />
     <Compile Include="Primitives\UsbRootHubName.cs" />
     <Compile Include="Primitives\UsbStringDescriptor.cs" />
+    <Compile Include="Primitives\UsbStringBuffer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsbDevice.cs" />
     <Compile Include="Primitives\Win32Api.cs" />
+    <Compile Include="UsbNotifier.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
